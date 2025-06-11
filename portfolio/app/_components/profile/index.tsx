@@ -7,7 +7,9 @@ export default function ProfilePage() {
   return (
     <main id="profile" className={styles.container}>
       <h2 className={styles.heading}>Profile</h2>
-      {/* 省略：プロフィール本人情報セクション */}
+      <p>名前： 鈴木 太郎
+        <br />学校： ○○専門学校 ITクリエイティブ学科 2年生
+        <br />  年齢： 19歳</p>
 
       <section className={styles.hobbySection}>
         <h3 className={styles.subHeading}>趣味 (Hobby)</h3>

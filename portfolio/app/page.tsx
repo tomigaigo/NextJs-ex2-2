@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import About from "./_components/about";
 import Profile from "./_components/profile";
 import Work from "./_components/work";
+import Skill from "./_components/skill"
 
 export default function HomePage() {
   return (
@@ -27,7 +28,7 @@ export default function HomePage() {
               <Link href="#work">Work</Link>
             </li>
             <li>
-              <Link href="/skill">Skill</Link>
+              <Link href="#skill">Skill</Link>
             </li>
             <li>
               <Link href="/strengths">Strengths</Link>
@@ -85,6 +86,7 @@ export default function HomePage() {
         <About />
         <Profile />
         <Work />
+        <Skill />
       </main>
     </>
   );

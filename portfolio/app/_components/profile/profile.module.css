@@ -1,7 +1,9 @@
 .container {
-  max-width: 600px;
+  max-width: 80%;
+  height: 400px;
   margin: 2rem auto;
   padding: 1rem;
+  scroll-margin-top: 60px; /* アンカーがズレる為 */
 }
 
 .heading {

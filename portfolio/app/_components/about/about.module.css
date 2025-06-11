@@ -1,7 +1,11 @@
+
 .container {
-  max-width: 600px;
+  max-width: 80%;
+  height: 400px;
   margin: 2rem auto;
   padding: 1rem;
+  background-color: rgb(241, 239, 247);
+  scroll-margin-top: 80px; /* アンカーがズレる為 */
 }
 
 .heading {
