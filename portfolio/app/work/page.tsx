@@ -12,14 +12,14 @@ export default function WorkPage() {
         <li className={styles.workItem}>
           <h3>作品名 1</h3>
           <p>Next.js を使ったポートフォリオサイト</p>
-          <Link href="https://github.com/username/project1" className={styles.link}>
+          {/* <Link href="https://github.com/username/project1" className={styles.link}> */}
             GitHub リポジトリはこちら
           </Link>
         </li>
         <li className={styles.workItem}>
           <h3>作品名 2</h3>
           <p>React + Firebase で作った TODO アプリ</p>
-          <Link href="https://github.com/username/project2" className={styles.link}>
+          {/* <Link href="https://github.com/username/project2" className={styles.link}> */}
             GitHub リポジトリはこちら
           </Link>
         </li>

@@ -14,13 +14,13 @@ export default function AboutPage() {
       </p>
 
       <section className={styles.imageSection}>
-        <Image
+        {/* <Image
           src="/images/profile.jpg"
           alt="About Image"
           width={800}
           height={400}
           className={styles.image}
-        />
+        /> */}
       </section>
     </main>
   );

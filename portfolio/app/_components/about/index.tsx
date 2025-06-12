@@ -12,12 +12,12 @@ export default function About(){
                 モジュールの使い方を確認しながら、自分だけのオリジナルサイトを作りましょう。
             </p>
             <section>
-                <Image
+                {/* <Image
                 src="/images/profile.jpg"
                 alt="About Image"
                 width={800}
                 height={400}
-                />
+                /> */}
             </section>
         </section>
     );
